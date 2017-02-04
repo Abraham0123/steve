@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title-bar
+{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.title-bar .menu-icon 
+{
+    margin-right: 0rem; 
+}
+
+.menu-icon::after
+{
+    background:#ed2024;
+    box-shadow: 0 7px 0 #ed2024, 0 14px 0 #ed2024; 
+}
+
+.menu-icon:hover::after 
+{
+    background: #ed2024;
+    box-shadow: 0 7px 0 #ed2024, 0 14px 0 #ed2024; 
+}
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+#mainNav li a
+{
+	background-color: #fff;
+	display: block;
+	color: #ed2024;
+}
+
+#mainNav li
+{
+}
+
+#mainNav li a:hover
+{
+	background-color: #ed2024;
+	color:#fff;
+}
+
+footer
+{
+	background-color: #000;
+}
+.footerLogo {
+display : block;
+top : 0;
+bottom : 0;
+left : 0;
+right : 0;
+margin : auto;
+}
+.footerText {
+font-size : 25px;
+text-align : center;
+color : #000;
+}
+
+@media screen and (min-width: 40em) {}
+.footerLogo {
+display : block;
+top : 0;
+bottom : 0;
+left : 0;
+right : 0;
+margin : auto;
+}
+.footerText {
+font-size : 25px;
+text-align : center;
+color : #000;
+}
+footer
+{
+	background-color: #ed2024;
+}
+@media screen and (min-width: 64em) {
+.footerLogo {
+display : block;
+top : 0;
+bottom : 0;
+left : 0;
+right : 0;
+margin : auto;
+}
+.footerText {
+font-size : 25px;
+text-align : center;
+color : #000;
+}
+#mainNav
+{
+	margin-top: 10px;
+}
+
+#mainNav li
+{
+	display: inline;
+	margin:25px;
+}
+
+#mainNav li a
+{
+	background-color: #fff;
+	display: inline;
+	text-decoration: none;
+	color: #ed2024;
+}
+
+#mainNav li a:hover
+{
+	color: #fff;
+	background-color: #000;
+}
+footer
+{
+	background-color: #ed2024;
+}
+}
